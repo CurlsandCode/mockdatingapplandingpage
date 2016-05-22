@@ -1,0 +1,44 @@
+body{
+	background: url(https://pixabay.com/static/uploads/photo/2015/01/30/09/35/animals-617305_960_720.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Lato;
+	color: white;
+}
+html{
+	height:100%;
+}
+#content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px red;
+	             0px 8px 13px red;
+	             0px 18px 23px #CE1E1E;
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.btn{
+	color: #CE1E1E;;
+}
+ .navbar-default{
+	background-color: white;
+}
+.navbar-default .navbar-nav>li>a{
+
+	color:#CE1E1E;;
+}
+.navbar-default .navbar-brand{
+	color:#CE1E1E;;
+}
+.navbar-default .navbar-nav>.active>a{
+	background-color: #CE1E1E;
+	color:#fff;
+}
